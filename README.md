@@ -22,7 +22,7 @@ Based on a list of numbers it creates an inverted list of ranges.
 >- 16-19
 
 ### Usage:
->./InvertedRange.sh <file> [max range] [y|s]\
+>./InvertedRange.sh <file> [max range] [y|s]
 > - file - File with number list
 > - max range - The last range number (optional, defaults to 100)
 > - y - Break lines on ';'
