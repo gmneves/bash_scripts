@@ -66,8 +66,8 @@ for i in $(seq 1 $((${#INVERTED[@]}))); do
 
     if [ "${LIST: -1}" != "-" ] && [ "${LIST: -1}" != " " ]; then
       LIST="${LIST}-"
-  fi
-      LIST="${LIST}${INVERTED[$i]}; "
+    fi
+    LIST="${LIST}${INVERTED[$i]}; "
     SKIP=0
     LAST=0
   fi
