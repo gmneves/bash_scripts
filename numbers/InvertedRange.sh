@@ -63,8 +63,7 @@ for i in $(seq 1 $((${#INVERTED[@]}))); do
         continue
       fi
     fi
-    #printf "$i x "
-    #LIST="${LIST}${INVERTED[$i]}; ${NEXT_ELEMENT}" 
+
     if [ "${LIST: -1}" != "-" ] && [ "${LIST: -1}" != " " ]; then
       LIST="${LIST}-"
   fi
