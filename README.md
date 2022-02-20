@@ -1,2 +1,2 @@
-# bash_scripts
-My Bash Script creations
+# My Bash scripts
+Here is some of my Bash script creations
