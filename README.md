@@ -12,9 +12,12 @@ Example:\
 >- 2
 >- 5
 >- 8
->- 10
+>- 15
+>- 20
 >
->**Inverted Range, from 1 to 10**
+>**Inverted Range, from 1 to 20**
 >- 3-4
->- 5-7
->- 9
+>- 6-7
+>- 9-14
+>- 16-19
+
