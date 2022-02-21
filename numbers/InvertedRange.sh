@@ -7,15 +7,17 @@ ORIGINAL=()
 INVERTED=()
 INDEX=0
 
-if [ "$FILE" == "" ]; then
-  echo "Informar um arquivo"
+if [ $# -lt 2 ]; then
+    echo "Usage: $0 filename max_size [s|y]"
+    exit 1
+fi
+
+if ! [ "${SIZE}" -eq "${SIZE}" 2> /dev/null ]
+then
+  echo "ERROR: max_size is not a number!"
   exit 1
 fi
 
-if [ "${SIZE}" == "" ]; then
-  echo "Tamanho vazio, assumindo 100"
-  SIZE=100
-fi
 
 while read -r NUMBER; do
   ORIGINAL[${INDEX}]=${NUMBER}
