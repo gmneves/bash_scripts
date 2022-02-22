@@ -8,8 +8,8 @@ INVERTED=()
 INDEX=0
 
 if [ $# -lt 2 ]; then
-    echo "Usage: $0 filename max_size [s|y]"
-    exit 1
+  echo "Usage: $0 filename max_size [s|y]"
+  exit 1
 fi
 
 if ! [ "${SIZE}" -eq "${SIZE}" 2> /dev/null ]
@@ -17,7 +17,6 @@ then
   echo "ERROR: max_size is not a number!"
   exit 1
 fi
-
 
 while read -r NUMBER; do
   ORIGINAL[${INDEX}]=${NUMBER}
