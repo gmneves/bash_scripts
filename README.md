@@ -1,5 +1,5 @@
 # My Bash scripts
-Here is some of my Bash script creations
+Here is some of my Bash script creations.
 
 ## numbers/Inverted Range
 This script was made to solve one need that I have.\
